@@ -1,0 +1,20 @@
+# ---
+# title: "Myrepo"
+# author: "XL"
+# date: "September 22, 2019"
+# output: 
+#   html_document: 
+#     keep_md: yes
+# ---
+
+#+ r setup, include=FALSE
+knitr::opts_chunk$set(echo = TRUE)
+
+#+ r
+a <- 1+1
+print(a)
+
+#+ r
+b <- 2+2
+print(b)
+
